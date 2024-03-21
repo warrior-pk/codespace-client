@@ -1,7 +1,7 @@
 import Table from "./Table";
 const Submissions = async () => {
-  const data = await fetch(`${process.env.SERVER}/api/submissions`).then(
-    (res) => res.json()
+  const data = await fetch(`${process.env.SERVER}/recipes`).then((res) =>
+    res.json()
   );
   console.log(data);
   return (
