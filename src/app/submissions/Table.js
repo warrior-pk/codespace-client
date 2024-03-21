@@ -33,9 +33,10 @@ const Table = ({ data = [] }) => {
                 : entry.ingredients[0]}
             </td>
             <td
-              className="cell"
               className={
-                entry.difficulty === "Easy" ? "text-green-400" : "text-red-500"
+                entry.difficulty === "Easy"
+                  ? "text-green-400 cell"
+                  : "text-red-500 cell"
               }
             >
               {entry.difficulty}
