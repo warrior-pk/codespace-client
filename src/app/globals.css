@@ -23,3 +23,16 @@ body {
     text-wrap: balance;
   }
 }
+.submission-table {
+  text-align: left;
+  color: whitesmoke;
+}
+
+.submission-table > td,
+th {
+  padding: 20px 30px;
+}
+
+.cell {
+  padding: 30px;
+}

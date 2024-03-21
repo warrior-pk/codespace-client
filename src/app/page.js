@@ -47,6 +47,7 @@ export default function Home() {
       setProcessing(false);
       return;
     }
+
     const data = {
       username,
       code,
