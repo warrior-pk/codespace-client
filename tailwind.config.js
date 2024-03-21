@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      ringColor: {
+        transparent: "transparent", // Define a transparent ring color
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
