@@ -1,9 +1,9 @@
 import Table from "./Table";
 const Submissions = async () => {
-  const data = await fetch("https://dummyjson.com/recipes").then((res) =>
-    res.json()
+  const data = await fetch(`${process.env.SERVER}/api/submissions`).then(
+    (res) => res.json()
   );
-
+  console.log(data);
   return (
     <main className="container relative mx-auto flex min-h-screen flex-col items-center justify-between py-6">
       <div className="table-wrapper overflow-auto w-full">

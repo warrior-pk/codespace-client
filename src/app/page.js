@@ -140,7 +140,7 @@ export default function Home() {
                 disabled={processing}
                 onClick={handleCodeRun}
                 className={` ${
-                  processing ? " opacity-50 cursor-not-allowed" : ""
+                  processing ? " opacity-50 cursor-not-allowed " : ""
                 } flex items-center justify-between appearance-none cursor-pointer w-30 bg-zinc-800/30 border-2 border-neutral-800 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center text-zinc-100/80 hover:text-white hover:bg-zinc-800`}
               >
                 Run
